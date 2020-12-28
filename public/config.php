@@ -60,3 +60,5 @@ echo $twig->render('validation.html.twig', [
     'errors' => $errors,
     'formData' => $formData,
 ]);
+
+// Il y a une incompréhension au niveau de l'énoncé par rapport au message d'erreur, tu nous dis de mettre un message générique mais en dessous un message détaillé.
